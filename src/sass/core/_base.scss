@@ -19,31 +19,3 @@ textarea {
 img {
     max-width: 100%;
 }
-
-body:before {
-	@media only screen and (min-width:$small) {
-		content: "Small";
-	}
-	@media only screen and (min-width:$tablet) {
-	    content: "Tablet";
-	}
-	@media only screen and (min-width:$medium) {
-	    content: "Medium";
-	}
-	@media only screen and (min-width:$large) {
-	    content: "Large";
-	}
-	@media only screen and (min-width:$huge) {
-	    content: "Huge";
-	}	
-    content: "Tiny";
-    position: fixed;
-    z-index: 10;
-    bottom: 0;
-    left: 0;
-    padding: 4px 6px;
-    text-transform: capitalize;
-    background-color: #f89728;
-    font-size: 11px;
-    color: #ffffff;
-}
